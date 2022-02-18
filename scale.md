@@ -5,9 +5,9 @@ deployment.apps/front scaled
 
 **part of information output**  
 root@cp1:/home/rattle# kubectl describe nodes  
-Name:                 node1  
-Roles:                <none>  
-Non-terminated Pods:          (22 in total)
+Name: node1  
+Roles: <none>  
+Non-terminated Pods:          (22 in total)  
   Namespace      |             Name               |                         CPU Requests | CPU Limits | Memory Requests | Memory Limits  |Age
  -|-|-|-|-|-|-
   default  |                   back-cfbb5c4cf-7vh72           |             0 (0%)    |   0 (0%)  |    0 (0%)     |      0 (0%)    |     96s
