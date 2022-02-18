@@ -6,21 +6,21 @@ Handling connection for 8080
 
 
 root@cp1:/home/rattle# curl 127.0.0.1:8080  
-<!DOCTYPE html>  
-<html lang="ru">  
-<head>  
-    <title>Список</title>  
-    <meta charset="UTF-8">  
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
-    <link href="/build/main.css" rel="stylesheet">  
-</head>  
-<body>  
-    <main class="b-page">  
-        <h1 class="b-page__title">Список</h1>  
-        <div class="b-page__content b-items js-list"></div>  
-    </main>  
-    <script src="/build/main.js"></script>  
-</body>  
+ !DOCTYPE html   
+ html lang="ru"   
+ head   
+   title Список /title    
+    meta charset="UTF-8"    
+    meta name="viewport" content="width=device-width, initial-scale=1.0"   
+    link href="/build/main.css" rel="stylesheet"   
+ head   
+ body   
+   main class="b-page"  
+        h1 class="b-page__title" Список /h1    
+    div class="b-page__content b-items js-list" /div    
+    /main   
+    script src="/build/main.js" /script   
+/body 
   
 
 **for back**  
